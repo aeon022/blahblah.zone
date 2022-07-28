@@ -1,0 +1,37 @@
+{
+	"login": {
+		"success": {
+			"title": "User Login",
+			"message": "Login successfully."
+		},
+		"fields":{
+			"email": {
+				"placeholder": "Enter Email",
+				"errors": {
+					"required": "Please enter a valid email.",
+					"email": "Email must be a valid email address."
+				}
+			},
+			"password": {
+				"placeholder": "Enter Password",
+				"errors": {
+					"required": "Please enter a valid password.",
+					"email": "Password must be at least 6 characters."
+				}
+			}
+		},
+		"buttons": {
+			"login": "Login",
+			"forgot_password": "Forgot password?",
+			"register": {
+				"text": "Do not have an account?",
+				"button": "Create an account"
+			}
+		}
+	},
+	"header": {
+		"search": {
+			"text": "Search here ..."
+		}
+	}
+}

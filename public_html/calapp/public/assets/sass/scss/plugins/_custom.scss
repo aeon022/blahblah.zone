@@ -1,0 +1,97 @@
+// =====================================================================================================
+// 	File Name: custom.scss
+// 	Description: Plugins custom class override form plugins like ng-select, sweet alert etc..
+// 				 related customiztion.
+// =====================================================================================================
+.ng-select.ng-select-single .ng-select-container {
+	height: calc(1.5em + 0.75rem + 2px);
+}
+
+.ng-select .ng-select-container .ng-value-container .ng-placeholder {
+	font-size: 1rem;
+	font-weight: 400;	
+	color: darker($body-bg, 30%);
+}
+
+.switch.switch-medium {
+	height: 25px;
+	min-width: 50px;
+	border: 0px;
+	.switch-pane {
+		span {
+			font-size: 0;
+		}
+	}
+	small {
+		width: 22px;
+		height: 22px;
+		margin: 1px 2px;
+		right: calc(100% - 26px);
+	}
+	&.checked {
+		background: #1E83EC !important;
+		small{
+			right: 0;
+			left: auto;
+			background: #FFF !important;
+		}
+	}
+}
+
+/** *********************
+	Sweet Alert
+	***********************/
+.swal2-modal {
+	.swal2-confirm {
+		background-color: theme-color('success') !important;
+	}
+	.swal2-cancel {
+		background-color: theme-color('danger') !important;
+	}
+}
+
+/** **********
+	breadcrumb
+	***********/
+.breadcrumb {
+	background: none;
+	padding: 0.75rem 0;
+	i{
+		font-size: 20px;
+	}
+}
+
+/** **********
+	Toastr
+	***********/
+.toast-container.toast-top-center .ngx-toastr,
+.toast-container.toast-bottom-center .ngx-toastr {
+	width: 400px;
+}
+
+/** **********
+	Dropzone
+	***********/
+.dz-image {
+	img {
+		max-width: 100%;
+	}
+}
+
+/**********
+Calendar
+	**********/
+.cal-month-view .cal-open-day-events{
+	color: #fff;
+    background-color: #171717 !important;
+    box-shadow: none !important;
+}
+
+/** *********************
+	JSTree
+	***********************/
+.jstree_size {
+    a {
+        font-size: 14px;
+    }
+}

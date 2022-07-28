@@ -1,0 +1,132 @@
+// ================================================================================================
+// 	File Name: badge.scss
+// 	Description: Badge classes override from bootstrap provides different background colors budges etc..
+// 				 related customiztion.
+// ================================================================================================
+
+.badge {
+	padding: 6px 10px;
+	font-size: 85%;
+	font-weight: 500;
+	letter-spacing: 0.3px;
+}
+.badge-pill {
+	border-radius: 0.2rem;
+	margin-left: 5px;
+}
+
+
+/* *****************
+	Status badges
+	*****************/
+.budges-status {
+	line-height: normal !important;
+	span {
+		color: #FFFFFF;
+		padding: 6px 15px;
+		font-size: 73%;
+		display: inline-block;
+		border-radius: 20px;
+		letter-spacing: 1px;
+		margin-bottom: 5px;
+		width: auto;
+		line-height: normal;
+		white-space: nowrap;
+	}
+	.open {
+		background: #ab8ce4;
+		border: 1px solid #ab8ce4;
+	}
+	.not_started {
+		background: #00bbd9;
+		border: 1px solid #00bbd9;
+	}
+	.in_progress {
+		background: #ffb136;
+		border: 1px solid #ffb136;
+	}
+	.on_hold {
+		background: #0283cc;
+		border: 1px solid #0283cc;
+	}
+	.completed {
+		background: #2ecc71;
+		border: 1px solid #2ecc71;
+	}
+	.cancel {
+		background: #e74a25;
+		border: 1px solid #e74a25;
+	}
+	.waiting {
+		background: #e46a76;
+		border: 1px solid #e46a76;
+	}
+	.solved {
+		background: #fb9678;
+		border: 1px solid #fb9678;
+	}
+	.closed {
+		background: #03a9f3;
+		border: 1px solid #03a9f3;
+	}
+	.reopen {
+		background: #fec107;
+		border: 1px solid #fec107;
+	}
+	.deffered {
+		background: #01c0c8;
+		border: 1px solid #01c0c8;
+	}
+	.new {
+		background: #ab8ce4;
+		border: 1px solid #ab8ce4;
+	}
+	.assigned {
+		background: #ab8ce4;
+		border: 1px solid #ab8ce4;
+	}
+	.qualification {
+		background: #9ef1f4;
+		border: 1px solid #9ef1f4;
+	}
+	.proposition {
+		background: #fb9678;
+		border: 1px solid #fb9678;
+	}
+	.won {
+		background: #ab8ce4;
+		border: 1px solid #ab8ce4;
+	}
+	.lost {
+		background: #01c0c8;
+		border: 1px solid #01c0c8;
+	}
+	.dead {
+		background: #4ac7ec;
+		border: 1px solid #4ac7ec;
+	}
+	.unassign {
+		background: #1ecab8;
+		border: 1px solid #1ecab8;
+	}
+	.urgent {
+		background: #3F51B5;
+		border: 1px solid #3F51B5;
+	}
+	.very_high {
+		background:  #5bc0de;
+		border: 1px solid  #5bc0de;
+	}
+	.high {
+		background: #00e396;
+		border: 1px solid #00e396;
+	}
+	.medium {
+		background: #3cdad3;
+		border: 1px solid #3cdad3;
+	}
+	.low {
+		background: #11dd8c;
+		border: 1px solid #11dd8c;
+	}
+}
